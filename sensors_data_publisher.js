@@ -81,7 +81,7 @@ function getNormalValue(id) {
 
 function getIdValue() {
   const id = randomChoice(SENSOR_IDS);
-  const isAbnormal = randomChance(PROBABILITY_LOW_VALUES);
+  const isAbnormal = randomChance(PROBABILITY_ABNORMAL_VALUES);
   const value = isAbnormal ? getAbnormalValue(id) : getNormalValue(id);
   return { id, value };
 }
