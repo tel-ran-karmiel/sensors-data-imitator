@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "dotenv": "^17.2.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.980.0"
+  }
+}
